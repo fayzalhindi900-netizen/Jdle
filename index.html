@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فروج العراب | Froj Al-Arrab</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header / Banner Section -->
+<header class="hero">
+<div class="overlay"></div>
+<div class="hero-content">
+<div class="logo-container">
+<!-- Dein Logo-Bild -->
+<img src="FB_IMG_1793304673519.jpg" alt="Logo Froj Al-Arrab" class="logo-img">
+</div>
+<h1>فروج العراب</h1>
+<p class="subtitle">Froj Al-Arrab</p>
+<p class="tagline">طعم الأصالة في قلب سوريا | Der Geschmack der syrischen Authentizität</p>
+<div class="status-badge">مفتوح الآن • Jetzt geöffnet</div>
+</div>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="nav-bar">
+<button class="nav-btn active" onclick="filterMenu('all')">الكل (Alle)</button>
+<button class="nav-btn" onclick="filterMenu('broasted')">فروج (Hähnchen)</button>
+<button class="nav-btn" onclick="filterMenu('shawarma')">شاورما (Shawarma)</button>
+<button class="nav-btn" onclick="filterMenu('western')">وجبات غريبة (Western)</button>
+</nav>
+
+<!-- Gallery / Featured Showcase -->
+<section class="gallery-container">
+<h2 class="section-title">أطباقنا المميزة • Unsere Spezialitäten</h2>
+<div class="grid-gallery">
+
+<!-- Bild 1: Broasted / Grill -->
+<div class="card" data-category="broasted">
+<div class="card-img-wrapper">
+<img src="FB_IMG_1793304681212.jpg" alt="فروج مشوي" class="card-img">
+</div>
+<div class="card-info">
+<h3>فروج مشوي على الشواية</h3>
+<p>Knuspriges Brathähnchen frisch vom Grill</p>
+</div>
+</div>
+
+<!-- Bild 2: Ganzes Hähnchen -->
+<div class="card" data-category="broasted">
+<div class="card-img-wrapper">
+<img src="FB_IMG_1793304714890.jpg" alt="فروج كامل" class="card-img">
+</div>
+<div class="card-info">
+<h3>فروج كاملا مع التوابل</h3>
+<p>Ganzes Grillhähnchen mit Spezial-Würzung</p>
+</div>
+</div>
+
+<!-- Bild 3: Shawarma Spieß -->
+<div class="card" data-category="shawarma">
+<div class="card-img-wrapper">
+<img src="Screenshot_20261029_230123_Facebook.jpg" alt="سيخ شاورما" class="card-img">
+</div>
+<div class="card-info">
+<h3>سيخ شاورما طازج</h3>
+<p>Frischer Shawarma-Spieß in Zubereitung</p>
+</div>
+</div>
+
+<!-- Bild 4: Shawarma Teller -->
+<div class="card" data-category="shawarma">
+<div class="card-img-wrapper">
+<img src="Screenshot_20261029_230133_Facebook.jpg" alt="وجبة شاورما" class="card-img">
+</div>
+<div class="card-info">
+<h3>وجبة شاورما عربي</h3>
+<p>Arabischer Shawarma-Teller mit Pommes & Garlic Dip</p>
+</div>
+</div>
+
+<!-- Bild 5: Festplatte Shawarma -->
+<div class="card" data-category="shawarma">
+<div class="card-img-wrapper">
+<img src="Screenshot_20261029_230555_Gallery.jpg" alt="صينية شاورما مشكلة" class="card-img">
+</div>
+<div class="card-info">
+<h3>سدر شاورما مشكل</h3>
+<p>Große Shawarma-Platte mit Beilagen & Gemüsegarnitur</p>
+</div>
+</div>
+
+<!-- Bild 6: Crispy Box -->
+<div class="card" data-category="western">
+<div class="card-img-wrapper">
+<img src="Screenshot_20261029_230532_Gallery.jpg" alt="وجبة كريسبي" class="card-img">
+</div>
+<div class="card-info">
+<h3>وجبة كريسبي وجبة غريبة</h3>
+<p>Knusprige Crispy-Chicken Strips mit Pommes & Mais</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- Footer / Contact Section -->
+<footer class="footer">
+<div class="footer-content">
+<h3>تواصل معنا • Kontakt & Bestellung</h3>
+<p class="phone">📞 <a href="tel:0984831553">0984 831 553</a></p>
+<p class="location">📍 ريف دمشق - Gouvernement Rif Dimaschq</p>
+<div class="social-links">
+<a href="https://wa.me/963984831553" class="social-btn">WhatsApp</a>
+<a href="#" class="social-btn">Facebook</a>
+</div>
+<p class="copy">© 2026 Froj Al-Arrab. Designed by SDOPE.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
